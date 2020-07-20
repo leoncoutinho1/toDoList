@@ -1,0 +1,7 @@
+.pageHeader {
+    padding: .3rem;
+}
+
+.pageHeader h2, .pageHeader small {
+    font-weight: 300;
+}

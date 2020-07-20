@@ -1,0 +1,26 @@
+#TodoForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .3rem;
+}
+
+#TodoForm input {
+    width: 25rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid darkslateblue;
+}
+
+#TodoForm input:focus {
+    box-shadow: 0 4px 5px -5px darkslateblue;
+    outline: none;
+}
+
+.buttonsForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 6rem;
+}

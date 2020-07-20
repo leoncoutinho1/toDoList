@@ -1,0 +1,29 @@
+#TodoList {
+    margin: 1rem 0;
+    padding: .3rem;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .4rem;
+}
+
+.listItem p {
+    width: 25rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.markedAsDone {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 4rem;
+}

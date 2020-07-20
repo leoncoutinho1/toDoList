@@ -1,0 +1,43 @@
+.IconButton {
+    width: 1.7rem;
+    height: 1.7rem;
+    font-size: .6rem;
+    font-weight: 300;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+.IconButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1px 3px black;
+}
+
+.IconButton:after:hover {
+    background-color: rgba(black, .5);
+}
+
+.add {
+    background-color: #14df02;
+}
+
+.check {
+    background-color: #023ddf;
+}
+
+.remove {
+    background-color: #c00000;
+}
+
+.undo {
+    background-color: #d1d401;
+}
+
+.search {
+    background-color: #01a0a5;
+}
+
+.clear {
+    background-color: #ee8f01;
+}
